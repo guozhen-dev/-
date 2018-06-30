@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3518E2A720E6A55C0015B1EE /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3518E29620E6A55C0015B1EE /* BabyToy.m */; };
+		3518E2A820E6A55C0015B1EE /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3518E29B20E6A55C0015B1EE /* BabyOptions.m */; };
+		3518E2A920E6A55C0015B1EE /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 3518E29D20E6A55C0015B1EE /* BabyCallback.m */; };
+		3518E2AA20E6A55C0015B1EE /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3518E29E20E6A55C0015B1EE /* BabyPeripheralManager.m */; };
+		3518E2AB20E6A55C0015B1EE /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3518E29F20E6A55C0015B1EE /* BabyCentralManager.m */; };
+		3518E2AC20E6A55C0015B1EE /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3518E2A020E6A55C0015B1EE /* BabySpeaker.m */; };
+		3518E2AD20E6A55C0015B1EE /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = 3518E2A220E6A55C0015B1EE /* BabyRhythm.m */; };
+		3518E2AE20E6A55C0015B1EE /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 3518E2A420E6A55C0015B1EE /* BabyBluetooth.m */; };
+		3518E2AF20E6A55C0015B1EE /* BabyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3518E2A520E6A55C0015B1EE /* BabyDefine.m */; };
+		3518E2B520E72A0B0015B1EE /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3518E2B420E72A0B0015B1EE /* HealthKit.framework */; };
 		3534A31A20E60E3200D92FBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534A31920E60E3200D92FBA /* AppDelegate.swift */; };
 		3534A31C20E60E3200D92FBA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534A31B20E60E3200D92FBA /* FirstViewController.swift */; };
 		3534A31E20E60E3200D92FBA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534A31D20E60E3200D92FBA /* SecondViewController.swift */; };
@@ -15,6 +25,8 @@
 		3534A32620E60E3200D92FBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3534A32420E60E3200D92FBA /* LaunchScreen.storyboard */; };
 		3534A33120E60E3200D92FBA /* _0180629Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534A33020E60E3200D92FBA /* _0180629Tests.swift */; };
 		3534A33C20E60E3300D92FBA /* _0180629UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534A33B20E60E3300D92FBA /* _0180629UITests.swift */; };
+		3534A34A20E6267500D92FBA /* WechatIMG18.png in Resources */ = {isa = PBXBuildFile; fileRef = 3534A34920E6267500D92FBA /* WechatIMG18.png */; };
+		3534A34C20E64D2A00D92FBA /* WechatIMG19.png in Resources */ = {isa = PBXBuildFile; fileRef = 3534A34B20E64D2A00D92FBA /* WechatIMG19.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3518E29420E6A55C0015B1EE /* BabyRhythm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyRhythm.h; sourceTree = "<group>"; };
+		3518E29520E6A55C0015B1EE /* BabySpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabySpeaker.h; sourceTree = "<group>"; };
+		3518E29620E6A55C0015B1EE /* BabyToy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyToy.m; sourceTree = "<group>"; };
+		3518E29720E6A55C0015B1EE /* BabyCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCentralManager.h; sourceTree = "<group>"; };
+		3518E29820E6A55C0015B1EE /* BabyPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyPeripheralManager.h; sourceTree = "<group>"; };
+		3518E29920E6A55C0015B1EE /* BabyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyDefine.h; sourceTree = "<group>"; };
+		3518E29A20E6A55C0015B1EE /* BabyBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyBluetooth.h; sourceTree = "<group>"; };
+		3518E29B20E6A55C0015B1EE /* BabyOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyOptions.m; sourceTree = "<group>"; };
+		3518E29C20E6A55C0015B1EE /* BabyBlueToothForSwift-Demo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BabyBlueToothForSwift-Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3518E29D20E6A55C0015B1EE /* BabyCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCallback.m; sourceTree = "<group>"; };
+		3518E29E20E6A55C0015B1EE /* BabyPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyPeripheralManager.m; sourceTree = "<group>"; };
+		3518E29F20E6A55C0015B1EE /* BabyCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCentralManager.m; sourceTree = "<group>"; };
+		3518E2A020E6A55C0015B1EE /* BabySpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabySpeaker.m; sourceTree = "<group>"; };
+		3518E2A120E6A55C0015B1EE /* BabyToy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyToy.h; sourceTree = "<group>"; };
+		3518E2A220E6A55C0015B1EE /* BabyRhythm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyRhythm.m; sourceTree = "<group>"; };
+		3518E2A320E6A55C0015B1EE /* BabyOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyOptions.h; sourceTree = "<group>"; };
+		3518E2A420E6A55C0015B1EE /* BabyBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyBluetooth.m; sourceTree = "<group>"; };
+		3518E2A520E6A55C0015B1EE /* BabyDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyDefine.m; sourceTree = "<group>"; };
+		3518E2A620E6A55C0015B1EE /* BabyCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCallback.h; sourceTree = "<group>"; };
+		3518E2B120E6AE1B0015B1EE /* 20180629-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "20180629-Bridging-Header.h"; path = "/Users/ding/Documents/Xcode/20180629/BabyBlueTooth/20180629-Bridging-Header.h"; sourceTree = "<absolute>"; };
+		3518E2B220E72A0B0015B1EE /* 20180629.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 20180629.entitlements; sourceTree = "<group>"; };
+		3518E2B420E72A0B0015B1EE /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		3534A31620E60E3200D92FBA /* 20180629.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 20180629.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3534A31920E60E3200D92FBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3534A31B20E60E3200D92FBA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +83,8 @@
 		3534A33720E60E3300D92FBA /* 20180629UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 20180629UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3534A33B20E60E3300D92FBA /* _0180629UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0180629UITests.swift; sourceTree = "<group>"; };
 		3534A33D20E60E3300D92FBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3534A34920E6267500D92FBA /* WechatIMG18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WechatIMG18.png; sourceTree = "<group>"; };
+		3534A34B20E64D2A00D92FBA /* WechatIMG19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WechatIMG19.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3518E2B520E72A0B0015B1EE /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +113,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3518E29320E6A55C0015B1EE /* BabyBlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				3518E2B120E6AE1B0015B1EE /* 20180629-Bridging-Header.h */,
+				3518E29420E6A55C0015B1EE /* BabyRhythm.h */,
+				3518E29520E6A55C0015B1EE /* BabySpeaker.h */,
+				3518E29620E6A55C0015B1EE /* BabyToy.m */,
+				3518E29720E6A55C0015B1EE /* BabyCentralManager.h */,
+				3518E29820E6A55C0015B1EE /* BabyPeripheralManager.h */,
+				3518E29920E6A55C0015B1EE /* BabyDefine.h */,
+				3518E29A20E6A55C0015B1EE /* BabyBluetooth.h */,
+				3518E29B20E6A55C0015B1EE /* BabyOptions.m */,
+				3518E29C20E6A55C0015B1EE /* BabyBlueToothForSwift-Demo-Bridging-Header.h */,
+				3518E29D20E6A55C0015B1EE /* BabyCallback.m */,
+				3518E29E20E6A55C0015B1EE /* BabyPeripheralManager.m */,
+				3518E29F20E6A55C0015B1EE /* BabyCentralManager.m */,
+				3518E2A020E6A55C0015B1EE /* BabySpeaker.m */,
+				3518E2A120E6A55C0015B1EE /* BabyToy.h */,
+				3518E2A220E6A55C0015B1EE /* BabyRhythm.m */,
+				3518E2A320E6A55C0015B1EE /* BabyOptions.h */,
+				3518E2A420E6A55C0015B1EE /* BabyBluetooth.m */,
+				3518E2A520E6A55C0015B1EE /* BabyDefine.m */,
+				3518E2A620E6A55C0015B1EE /* BabyCallback.h */,
+			);
+			path = BabyBlueTooth;
+			sourceTree = "<group>";
+		};
+		3518E2B320E72A0B0015B1EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3518E2B420E72A0B0015B1EE /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3534A30D20E60E3200D92FBA = {
 			isa = PBXGroup;
 			children = (
+				3518E29320E6A55C0015B1EE /* BabyBlueTooth */,
 				3534A31820E60E3200D92FBA /* 20180629 */,
 				3534A32F20E60E3200D92FBA /* 20180629Tests */,
 				3534A33A20E60E3300D92FBA /* 20180629UITests */,
 				3534A31720E60E3200D92FBA /* Products */,
+				3518E2B320E72A0B0015B1EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +173,7 @@
 		3534A31820E60E3200D92FBA /* 20180629 */ = {
 			isa = PBXGroup;
 			children = (
+				3518E2B220E72A0B0015B1EE /* 20180629.entitlements */,
 				3534A31920E60E3200D92FBA /* AppDelegate.swift */,
 				3534A31B20E60E3200D92FBA /* FirstViewController.swift */,
 				3534A31D20E60E3200D92FBA /* SecondViewController.swift */,
@@ -106,6 +181,8 @@
 				3534A32220E60E3200D92FBA /* Assets.xcassets */,
 				3534A32420E60E3200D92FBA /* LaunchScreen.storyboard */,
 				3534A32720E60E3200D92FBA /* Info.plist */,
+				3534A34B20E64D2A00D92FBA /* WechatIMG19.png */,
+				3534A34920E6267500D92FBA /* WechatIMG18.png */,
 			);
 			path = 20180629;
 			sourceTree = "<group>";
@@ -196,6 +273,11 @@
 				TargetAttributes = {
 					3534A31520E60E3200D92FBA = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					3534A32B20E60E3200D92FBA = {
 						CreatedOnToolsVersion = 9.4;
@@ -232,8 +314,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3534A34A20E6267500D92FBA /* WechatIMG18.png in Resources */,
 				3534A32620E60E3200D92FBA /* LaunchScreen.storyboard in Resources */,
 				3534A32320E60E3200D92FBA /* Assets.xcassets in Resources */,
+				3534A34C20E64D2A00D92FBA /* WechatIMG19.png in Resources */,
 				3534A32120E60E3200D92FBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +343,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3518E2AF20E6A55C0015B1EE /* BabyDefine.m in Sources */,
+				3518E2A820E6A55C0015B1EE /* BabyOptions.m in Sources */,
+				3518E2AD20E6A55C0015B1EE /* BabyRhythm.m in Sources */,
+				3518E2AB20E6A55C0015B1EE /* BabyCentralManager.m in Sources */,
 				3534A31E20E60E3200D92FBA /* SecondViewController.swift in Sources */,
+				3518E2AC20E6A55C0015B1EE /* BabySpeaker.m in Sources */,
 				3534A31A20E60E3200D92FBA /* AppDelegate.swift in Sources */,
+				3518E2A720E6A55C0015B1EE /* BabyToy.m in Sources */,
+				3518E2AA20E6A55C0015B1EE /* BabyPeripheralManager.m in Sources */,
+				3518E2A920E6A55C0015B1EE /* BabyCallback.m in Sources */,
 				3534A31C20E60E3200D92FBA /* FirstViewController.swift in Sources */,
+				3518E2AE20E6A55C0015B1EE /* BabyBluetooth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,16 +526,20 @@
 		3534A34120E60E3300D92FBA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = 20180629/20180629.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4ZLJ6VPU4;
 				INFOPLIST_FILE = 20180629/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.std.-0180629";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/BabyBlueTooth/20180629-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,16 +548,21 @@
 		3534A34220E60E3300D92FBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = 20180629/20180629.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = J4ZLJ6VPU4;
 				INFOPLIST_FILE = 20180629/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.std.-0180629";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/BabyBlueTooth/20180629-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
